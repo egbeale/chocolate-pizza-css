@@ -4,11 +4,148 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@600&family=Patrick+Hand&family=Roboto+Condensed:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
   <title>Chocolate Pizza</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-  
+
+  <header>
+    <section id="header-left">
+      <img id="logo" src="assets/logo.png" alt="food-logo">
+      <div>
+        <h1>Delicious</h1>
+        <h2>THE BEST FOOD BLOG ON THE WEB.</h2>
+      </div>
+    </section>
+
+    <section id="header-icons">
+      <img src="assets/fb-icon.png" alt="FaceBook">
+      <img src="assets/twit-icon.png" alt="Twitter">
+      <img src="assets/gp-icon.png" alt="Google plus">
+      <img src="assets/insta-icon.png" alt="IG">
+      <img src="assets/flic-icon.png" alt="Flickr">
+      <img src="assets/pint-icon.png" alt="Pintrest">
+      <img src="assets/rss-icon.png" alt="RSS">
+      <img src="assets/mail-icon.png" alt="Email">
+    </section>
+  </header>
+
+  <main>
+    <section>
+      <div>
+        <h3>Chocolate Pizza</h3>
+        <h4>POSTED ON 15 DEC 2013 / DESSERTS</h4>
+      </div>
+      <div id="print">
+        <h4><img src="assets/print-icon.png" alt="print">PRINT</h4>
+      </div>
+
+    </section>
+
+<!-- ***** PHOTO AND INSTRUCTIONS ***** -->
+
+    <img id="hero" src="assets/choco-pizza.png" alt="chocolate-pizza">
+
+    <p class="directions">For the fig-swirl; melt butter over medium heat in a sauce pan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the sauce pan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+    <p class="directions">Ice cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridege and wait until the fig mixture is cooled.</p>
+    <p class="directions" >Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+
+<!-- ********* RECIPE LIST *******  -->
+    <form>
+      <fieldset>
+        <ul id="list1">
+
+          <li>
+            <input type="checkbox" id="milk">
+            <label for="milk">1 1/2 cups milk</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="mascarpone">
+            <label for="mascarpone">1/2 cup mascarpone</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="salt">
+            <label for="salt">1/2 tsp pink salt</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="figs">
+            <label for="figs">1lb black mission figs</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="brnsugar">
+            <label for="brnsugar">1/2 cup brown sugar</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="water">
+            <label for="water">2-4 tbsp water</label>
+          </li>
+
+        </ul>
+
+        <ul id="list2">
+
+          <li>
+            <input type="checkbox" id="cream">
+            <label for="cream">1/2 cup heavy cream</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="gransugar">
+            <label for="gransugar">1/3 granulated sugar</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="egg">
+            <label for="egg">2 egg yolks</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="lemon">
+            <label for="lemon">1 lemon, juiced</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="butter">
+            <label for="butter">2 tbsp butter</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="pecans">
+            <label for="pecans">1 cup honesy roasted pecans, roughly chopped</label>
+          </li>
+        </ul>
+
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <!-- Insert dashed line  -->
+    <section id="vanessa">
+      <img src="assets/van-pic.png" alt="profile">
+      <article>
+        <h5>Vanessa Stevenson</h5>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </article>
+    </section>
+    <button>SHARE RECIPE</button>
+    <section id="copyright">
+      <img src="assets/small-logo.png" alt="">
+      <hr>
+      <h6>Delicious &copy; 2013 &dot; All Rights Reserved.</h6>
+      <h6>Proudly published with Ghost.</h6>
+    </section>
+  </footer>
+
 </body>
 </html>
