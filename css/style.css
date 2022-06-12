@@ -32,10 +32,15 @@ section {
   margin-bottom: 20px;
 }
 
-/* insert line rule  */
+.fat-line {
+  background-color: rgb(227, 227, 227);
+  height: 10px;
+  border: none;
+  margin-bottom: 40px;
+}
 
 h3 {
-  font-size: 3em;
+  font-size: 20pt;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   position: relative;
@@ -45,6 +50,7 @@ h4 {
   font-family: 'Roboto Condensed', sans-serif;
   color: darkgray;
   line-height: 2em;
+  font-size: 8pt;
 }
 
 #print {
@@ -55,8 +61,8 @@ h4 {
 }
 
 #hero {
-  margin: auto;
   align-items: center;
+  width: 100%;
 }
 
 p {
@@ -68,10 +74,8 @@ p {
 }
 
 .directions {
-  width: 80%;
   text-align: left;
   text-indent: 30px;
-  margin: auto;
 }
 
 fieldset {
@@ -100,43 +104,37 @@ input {
 
 label {
   font-family: 'Patrick Hand', cursive;
-  font-size: 1.5em;
-}
-
-footer {
-  margin-top: 20px;
+  font-size: 12pt;
+  color: gray;
 }
 
 #vanessa {
   display: flex;
-  position: relative;
-  width: 50%;
-  float: left;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
-footer p {
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-
-footer section article {
-  margin-left: 15px;
+#bio {
+  padding: 0 20px;
 }
 
 button {
-  background-color: rgb(188, 112, 88);
-  position: absolute;
-  margin-top: 30px;
-  padding: 5px 20px;
+  background-color: rgb(216, 108, 75);
   color: white;
-  border-color: white;
+  height: 40px;
+  padding: 0 30px;
+  border: none;
+  font-size: 11pt;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-#copyright {
-  margin-top: 100px;
+footer > img {
+  display: block;
+  margin: 0 auto;
 }
 
-#copyright img {
-  margin-right: auto;
-  margin-left: auto;
+#footer-text {
+  text-align: center;
+  color: rgb(214, 214, 214);
+  font-size: 7pt;
 }
